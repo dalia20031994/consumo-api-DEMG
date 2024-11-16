@@ -2,6 +2,7 @@
 
 # Procedimiento
 ***Parte 1: Crear el Proyecto Angular***
+
 En primer lugar se creo el proyecto Angular
 
 ![Carpeta de servicios](src/assets/ImgReadme/Crear.png)
@@ -66,28 +67,30 @@ Al ejecutar el proyecto con el siguiente comando ng serve --open se muestra la t
 ![Resultado](src/assets/ImgReadme/resultado.png)
 
 # Preguntas
-*** ¿Qué hace el método getUsers en este servicio? ***
+**¿Qué hace el método getUsers en este servicio?**
 
 Hace una llamada a HTTP, este método devuelve un observable que nos permite hacer que el componente obtenga los datos que se irán llamando conforme se hace la solicitud http. 
 
-*** ¿Por qué es necesario importar HttpClientModule? ***
+**¿Por qué es necesario importar HttpClientModule?**
 Es para poder utilizar el servicio de HTTPCLIENT que tiene angular y realizar solicitudes HTTP. 
 ¿Qué función cumple el método ngOnInit en el componente UserListComponent?
 Su función es ejecutarse cuando se inicializa junto con la interfaz, realiza tareas de inicio y obtiene los datos del servicio hacia donde se hizo la petición http. 
 
-*** ¿Para qué sirve el bucle *ngFor en Angular? ***
+**¿Para qué sirve el bucle *ngFor en Angular?**
 
 Sirve para poder iterar sobre los datos llamados y después genera los elementos basados en la colección. 
-¿Qué ventajas tiene el uso de servicios en Angular para el consumo de APIs?
+
+**¿Qué ventajas tiene el uso de servicios en Angular para el consumo de APIs?**
+
 •	Los servicios que ofrece angular dan una estructura de código más organizada al organizar el consumo de APIs.
 •	Facilita la reutilización del código para crear diseños y adaptarlos, esto nos ayuda a mantener un mantenimiento del código más eficiente a medida que vamos añadiendo nuevas características. 
 •	Otra ventaja es que al mantener la lógica del consumo de las APIs dentro de los servicios permite concentrar los componentes en las presentaciones de la información y los datos. 
 •	Esta técnica de aislamiento reduce la complejidad en los componentes, facilitando el desarrollo y depuración, y también mejora la separación de preocupaciones.
 
-*** ¿Por qué es importante separar la lógica de negocio de la lógica de presentación?  ***
+**¿Por qué es importante separar la lógica de negocio de la lógica de presentación?**
 
 Principalmente es por la razón de tener buenas prácticas de código limpio, esto facilita tener más comprensión en la estructura del programa, mejorando la colaboración entre más programadores, también facilita el mantenimiento, siendo más sencillo realizar cambios en una sección evitando afectar todo el funcionamiento del proyecto y otro punto importante es que nos ayuda a reutilizar la lógica del apartado de negocio y facilita la implementación de pruebas de integración. 
 
-*** ¿Qué otros tipos de datos o APIs podrías integrar en un proyecto como este? ***
+**¿Qué otros tipos de datos o APIs podrías integrar en un proyecto como este?**
 
 Apis de autenticación de usuarios, Apis para localización vía GPS, Apis bancarias, Datos gubernamentales, Apis de mensajerías, Apis de videos, Apis de música. 
