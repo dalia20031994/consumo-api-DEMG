@@ -76,7 +76,7 @@ Es para poder utilizar el servicio de HTTPCLIENT que tiene angular y realizar so
 ¿Qué función cumple el método ngOnInit en el componente UserListComponent?
 Su función es ejecutarse cuando se inicializa junto con la interfaz, realiza tareas de inicio y obtiene los datos del servicio hacia donde se hizo la petición http. 
 
-**¿Para qué sirve el bucle *ngFor en Angular?**
+**¿Para qué sirve el bucle *ngFor en Angular?***
 
 Sirve para poder iterar sobre los datos llamados y después genera los elementos basados en la colección. 
 
