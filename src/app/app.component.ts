@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { UserListComponent } from './components/user-list/user-list.component';
 
 @Component({
   selector: 'app-root',
+  template: '<app-user-list></app-user-list>',
   standalone: true,
-  imports: [RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  imports: [UserListComponent]
 })
 export class AppComponent {
-  title = 'consumo-api-INICIALES';
+  title: string = 'Angular';
+
 }
